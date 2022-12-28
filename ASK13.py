@@ -1,7 +1,7 @@
 x=input("Δωστε το ονομα του αρχειου ASCII (πρεπει να εχει μορφη ονομα.txt) \n")
-f=open(x, "r") #anoigi to arxio pou edose o xrisths
-k=f.read() #bazi to periexomeno toy stin metabliti k
-k=k.split() #xorizi to keimeno ana leksis kai to bazi se mia lista px [a,letter,okei]
+f=open(x, "r") #anoigei to arxio pou edose o xrisths
+k=f.read() #bazei to periexomeno toy stin metabliti k
+k=k.split() #xorizei to keimeno ana leksis kai to bazi se mia lista px [a,letter,okei]
 lst=[]
 u=0 #bazouyme mia metabliti gia na metrame poses lejis exei mesa i lista
 for i in k: #prospelasi stin list ame tis lejis
